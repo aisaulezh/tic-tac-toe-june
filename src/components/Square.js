@@ -23,7 +23,7 @@ const style = {
 const Square = ({ square, fillSquare, index }) => {
     const squareStyle = {
         ...style,
-        color: square === 'X' ? '#1E90FF' : square === 'O' ? '#FF6347' : 'white',
+        color: square === 'X' ? '#1E90FF' : square === 'O' ? '#e0ff47' : 'white',
         pointerEvents: square ? 'none' : 'auto',
     };
 
