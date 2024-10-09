@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-color: #ffffff;
+  background-image: url('https://aisaulezh.github.io/tic-tac-toe-june/naturebg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: rgba(40, 44, 52, 0.9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #d6b88f;
+  text-align: center;
+  width: 100vw;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #FF6347;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #FF4500;
+}
